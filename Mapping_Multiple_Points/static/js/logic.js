@@ -2,7 +2,7 @@
 console.log("working");
 
 // Create map object with center and zoom level
-let map = L.map('mapid').setView([34.0522, -118.2437], 4);
+let map = L.map('mapid').setView([36.1733, -120.1794], 7);
 
 // Get data from cities.js
 let cityData = cities;
@@ -43,3 +43,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tile
 });
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
+
+
+
+
